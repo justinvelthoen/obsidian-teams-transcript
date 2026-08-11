@@ -1,0 +1,10 @@
+{
+  "id": "teams-transcript-to-markdown",
+  "name": "Teams Transcript to Markdown",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Converts Microsoft Teams transcript exports (.docx) into structured Markdown notes, optimized for Obsidian viewing and for LLM parsing (e.g. Claude).",
+  "author": "",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
