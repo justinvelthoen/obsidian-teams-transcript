@@ -39,6 +39,10 @@ export default class TeamsTranscriptPlugin extends Plugin {
 		await this.loadSettings();
 		this.addSettingTab(new TeamsTranscriptSettingTab(this.app, this));
 
+		this.addRibbonIcon("file-text", "Convert Teams transcript to Markdown", () => {
+			this.openFilePicker();
+		});
+
 		this.addCommand({
 			id: "convert-teams-transcript",
 			name: "Convert Teams transcript (.docx) to Markdown",

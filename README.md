@@ -70,9 +70,10 @@ npm run build
 ## Usage
 
 1. Export a transcript from Teams (meeting recap page → **Download transcript**) and drop the `.docx` file anywhere in your vault.
-2. Either:
-   - Right-click the `.docx` file in the file explorer → **Convert Teams transcript to Markdown** (also works multi-select via **files-menu**), or
-   - Run the command **Convert Teams transcript (.docx) to Markdown** from the command palette and pick the file.
+2. Any of the following:
+   - Click the ribbon icon (left sidebar) — pick the `.docx` file from the list.
+   - Right-click the `.docx` file in the file explorer → **Convert Teams transcript to Markdown** (also works multi-select via **files-menu**).
+   - Run the command **Convert Teams transcript (.docx) to Markdown** from the command palette (`Ctrl/Cmd+P`) and pick the file.
 3. By default you'll get a prompt to confirm/edit the destination folder and filename (defaults to the `Meetings` folder and `YYYY-MM-DD Meeting Title`, derived from the transcript's own header, not the download filename). Confirm to create the note.
 
 ## Settings
